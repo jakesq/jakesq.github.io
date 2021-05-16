@@ -1,0 +1,670 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.custombox {
+    width: 100px;
+    height: 75px;
+}
+.title {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 25px;
+}
+.titlebox {
+    width: 100%;
+    text-align: left;
+}
+
+.sqicon {
+    width: 50px;
+    height: 50px;
+}
+.name {
+    font-family: Helvetica;
+    font-size: 15px;
+}
+.navname {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #ffffff;
+}
+.divider {
+    height: 50px;
+    width: 1px;
+}
+.a {
+    text-decoration: none;
+}
+
+ul li {
+    color: white;
+}
+
+
+/* narrow */
+@media only screen and (min-width: 200px) and (max-width: 999px) {
+    .title2 {
+        font-family: Helvetica;
+        font-size: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        width: 100vw;
+    }
+    .toptitlebar {
+        height: 75px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 20px 20px 0px 20px;
+        background-color: #3A3A3A;
+        box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, .2); 
+        border-radius: 25px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .topTitle {
+        width: 90vw;
+        height: 30px;
+        font-family: Helvetica;
+        font-size: 60px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+        display:flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .topTitle:hover {
+        width: 90vw;
+        height: 30px;
+        font-family: Helvetica;
+        font-size: 60px;
+        font-weight: bold;
+        color: grey;
+        display:flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogTitle {
+        padding: 0px 20px 0px 20px;
+        margin: 20px;
+        background-color: #4A4A4A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogtitleText {
+        font-family: Helvetica;
+        font-size: 35px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        width: 100vw;
+    }
+    .stage {
+        padding: 5vw 5vw 5vw 5vw;
+        margin: 20px 20px 0px 20px;
+        background-color: #3A3A3A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 25px;
+    }
+    .top {
+        width: 20vw;
+        padding: 30px;
+        margin: 1vw;
+        font-family: Helvetica;
+        font-size: 40px;
+        color: #ffffff;
+        background-color: #3A3A3A;
+        box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, .2);
+        border-radius: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        height: 150px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .topbar {
+        width: 100vw;
+        background: #2A2A2A;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        display:flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: 41vh 41vh;
+        grid-gap: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .grid-container > div {
+        background-color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contenttext {
+        font-family: Helvetica;
+        font-size: 40px;
+        width: 80%;
+        padding: 40px;
+        color: #ffffff;
+    }
+    .normaltext {
+        font-family: Helvetica;
+        font-size: 40px;
+        width: 80%;
+        padding: 40px;
+        color: #ffffff;
+    }
+    .contenttextbox {
+        background-color: #2A2A2A;
+        padding-bottom: 25px;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: 25px auto;
+    }
+    .horizontalContent {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottombar {
+        width: 100vw;
+        height: 75px;
+        background: #2A2A2A;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom {
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 35px;
+        color: #ffffff;
+        display:flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .verticalContent {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        padding: 2vw;
+    }
+
+    .profileImage {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 35px;
+        box-shadow: 0px 0px 35px rgba(0, 0, 0, .5); 
+        background-color: black;
+        background-image: url("assets/images/harry.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .weydonImage {
+        width: 75vw;
+        height: 50vw;
+        border-radius: 35px;
+        box-shadow: 0px 0px 35px rgba(0, 0, 0, .5); 
+        background-color: white;
+        background-image: url("assets/images/weydon.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .farnboroughImage {
+        width: 75vw;
+        height: 60vw;
+        border-radius: 35px;
+        box-shadow: 0px 0px 35px rgba(0, 0, 0, .5); 
+        background-color: white;
+        background-image: url("assets/images/farnborough.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .portsmouthImage {
+        width: 75vw;
+        height: 50vw;
+        border-radius: 35px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, .7); 
+        background-color: white;
+        background-image: url("assets/images/portsmouth_ebdon.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blindhouseImage {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/blindhouse.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .tyroneImage {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/micguy.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .monotoneImage {
+        width: 75vw;
+        height: 45vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/cameraguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .groundedImage {
+        width: 75vw;
+        height: 45vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/grounded.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .goldfishImage {
+        width: 75vw;
+        height: 45vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/goldfish.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .skateboardImage {
+        width: 75vw;
+        height: 45vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/skaterguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .yellowwallpaperImage {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/yellowwallpaperguy.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+/* wide */
+@media screen and (min-width: 1000px) {
+    .title2 {
+        font-family: Helvetica;
+        font-size: 25px;
+        text-align: center;
+        color: #ffffff;
+        width: 100vw;
+    }
+    .toptitlebar {
+        height: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 20px 20px 0px 20px;
+        background-color: #3A3A3A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogTitle {
+        height: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 20px;
+        background-color: #4A4A4A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stage {
+        padding: 20px;
+        margin: 20px 20px 0px 20px;
+        background-color: #3A3A3A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 10px;
+    }
+    .topTitle {
+        width: 300px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        display:flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .topTitle:hover {
+        width: 300px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 20px;
+        font-weight: bold;
+        color: grey;
+        display:flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .blogTitle {
+        padding: 10px;
+        margin: 15px;
+        background-color: #4A4A4A;
+        box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2); 
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogtitleText {
+        font-family: Helvetica;
+        font-size: 25px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        width: 100vw;
+    }
+
+    .top {
+        width: 150px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #ffffff;
+        padding-top: 4.5px;
+        font-weight: bold;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .top:hover{
+        width: 150px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 16px;
+        color: grey;
+        display:flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .bottom {
+        width: 310px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 15px;
+        color: #ffffff;
+        display:flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        height: 50px;
+        background: #2A2A2A;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display:flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .topbar {
+        width: 100%;
+        height: 50px;
+        background: #2A2A2A;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display:flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: 41vh 41vh;
+        grid-gap: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .grid-container > div {
+        background-color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contenttext {
+        font-family: Helvetica;
+        font-size: 20px;
+        width: 40vw;
+        padding: 50px;
+        color: #ffffff;
+    }
+    .normaltext {
+        font-family: Helvetica;
+        font-size: 20px;
+        display: flex;
+        color: #ffffff;
+    }
+    .contenttextbox {
+        background-color: #2A2A2A;
+        padding-bottom: 25px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto;
+    }
+    .horizontalContent {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: top;
+    }
+
+    .bottombar {
+        width: 100vw;
+        height: 35px;
+        background: #2A2A2A;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom {
+        width: 310px;
+        height: 50px;
+        font-family: Helvetica;
+        font-size: 15px;
+        color: #ffffff;
+        display:flex; 
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .verticalContent {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: left;
+        padding: 2vw;
+    }
+
+    .profileImage {
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/harry.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .weydonImage {
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/weydon.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .farnboroughImage {
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/farnborough.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .portsmouthImage {
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/portsmouth_ebdon.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blindhouseImage {
+        margin-top: 70px;
+        width: 355px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/blindhouse.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .tyroneImage {
+        margin-top: 70px;
+        width: 355px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/micguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .monotoneImage {
+        margin-top: 70px;
+        width: 400px;
+        height: 275px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/cameraguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .groundedImage {
+        margin-top: 70px;
+        width: 400px;
+        height: 275px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/grounded.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .goldfishImage {
+        margin-top: 70px;
+        width: 400px;
+        height: 275px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/goldfish.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .skateboardImage {
+        margin-top: 70px;
+        width: 400px;
+        height: 275px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/skaterguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .yellowwallpaperImage {
+        margin-top: 70px;
+        width: 355px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/yellowwallpaperguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
