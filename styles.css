@@ -337,6 +337,16 @@ ul li {
         background-size: contain;
         background-repeat: no-repeat;
     }
+    .auguriesImage {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 35px;
+        background-color: black;
+        background-image: url("assets/images/blog/bedwoman.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -664,6 +674,16 @@ ul li {
         border-radius: 10px;
         background-color: black;
         background-image: url("assets/images/blog/yellowwallpaperguy.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .auguriesImage {
+        margin-top: 70px;
+        width: 355px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: black;
+        background-image: url("assets/images/blog/bedwoman.jpg");
         background-position: center;
         background-size: cover;
     }
